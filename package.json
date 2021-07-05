@@ -10,16 +10,24 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:redos-checker-for-vscode.helloWorld"
+		"onCommand:redos-checker-for-vscode.check"
 	],
 	"main": "./src/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "redos-checker-for-vscode.helloWorld",
-				"title": "redos"
+				"command": "redos-checker-for-vscode.check",
+				"title": "redos-checker-for-vscode"
 			}
-		]
+		],
+		"menus": {
+			"editor/context": [
+				{
+					"when": "editorHasSelection",
+					"command": "redos-checker-for-vscode.check"
+				}
+			]
+		}
 	},
 	"scripts": {
 		"lint": "eslint .",
