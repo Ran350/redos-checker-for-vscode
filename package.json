@@ -12,12 +12,12 @@
 	"activationEvents": [
 		"onCommand:redos-checker-for-vscode.helloWorld"
 	],
-	"main": "./extension.js",
+	"main": "./src/extension.js",
 	"contributes": {
 		"commands": [
 			{
 				"command": "redos-checker-for-vscode.helloWorld",
-				"title": "Hello World"
+				"title": "redos"
 			}
 		]
 	},
