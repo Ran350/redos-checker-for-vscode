@@ -9,18 +9,24 @@ const onActiveEvent = () => {
   const regex = document.getText(selectedArea);
 
   const result = check(regex, "");
-  const output = JSON.stringify(result);
 
   if (result.status == "vulnerable") {
-    const message = vscode.window.showWarningMessage("This regex has vulnerable.", "More");
+    const message = vscode.window.showWarningMessage("This regex has VULNERABLE !!!", "More");
     message.then(() => {
-      console.log(output);
+      const string = result.attack.string;
+      vscode.window.showWarningMessage("Attack string: " + string);
+
+      const complexity = result.complexity.type;
+      vscode.window.showWarningMessage("Complexity: " + complexity);
     });
-  } else {
-    const message = vscode.window.showInformationMessage("This regex is safe.", "More");
-    message.then(() => {
-      console.log(output);
-    });
+  }
+
+  if (result.status == "safe") {
+    vscode.window.showInformationMessage("This regex is safe");
+  }
+
+  if (result.status == "unknown") {
+    vscode.window.showInformationMessage("Unknown regex pattern");
   }
 };
 
