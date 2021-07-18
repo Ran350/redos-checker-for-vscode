@@ -1,14 +1,29 @@
 {
 	"name": "redos-checker-for-vscode",
-	"displayName": "redos-checker-for-vscode",
-	"description": "",
+	"displayName": "ReDoS Checker for VSCode",
+	"description": "VSCode extension to detect vulnerable regular expressions",
 	"version": "0.0.1",
+	"publisher": "Ran350",
 	"engines": {
 		"vscode": "^1.57.0"
 	},
 	"categories": [
 		"Other"
 	],
+    "keywords": [
+    	"security",
+		"vulnerable",
+		"ReDoS",
+		"regular expression",
+		"regex"
+    ],
+	"bugs": {
+		"url": "https://github.com/Ran350/redos-checker-for-vscode/issues"
+	},
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/Ran350/redos-checker-for-vscode.git"
+    },
 	"activationEvents": [
 		"onCommand:redos-checker-for-vscode.check"
 	],
