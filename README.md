@@ -2,6 +2,9 @@
 
 # redos-checker-for-vscode
 
+[![Marketplace Version](https://vsmarketplacebadge.apphb.com/version/ran350.redos-checker-for-vscode.svg)](https://marketplace.visualstudio.com/items?itemName=ran350.redos-checker-for-vscode) 
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/ran350.redos-checker-for-vscode.svg)](https://marketplace.visualstudio.com/items?itemName=ran350.redos-checker-for-vscode) 
+
 </div>
 
 VSCode extension to detect vulnerable regular expressions
