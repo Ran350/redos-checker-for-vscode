@@ -1,5 +1,5 @@
 const vscode = require("vscode");
-const { check } = require("@makenowjust-labo/recheck");
+const { checkSync } = require("recheck");
 
 const onActiveEvent = () => {
   const editor = vscode.window.activeTextEditor;
@@ -8,7 +8,7 @@ const onActiveEvent = () => {
 
   const regex = document.getText(selectedArea);
 
-  const result = check(regex, "");
+  const result = checkSync(regex, "");
 
   if (result.status == "vulnerable") {
     const message = vscode.window.showWarningMessage("This regex has VULNERABLE !!!", "More");

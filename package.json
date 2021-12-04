@@ -61,6 +61,6 @@
 		"vscode-test": "^1.5.2"
 	},
 	"dependencies": {
-		"@makenowjust-labo/recheck": "^3.1.0"
+		"recheck": "^4.1.1"
 	}
 }
