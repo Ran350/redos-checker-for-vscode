@@ -17,6 +17,9 @@ With the regular expression cursor selected, do one of the following.
 - Run `redos-checker-for-vscode` from the Command Palette (Ctrl+Shift+p)
 - Right-click to open the context menu and select `redos-checker-for-vscode`
 
+## Requirements
+This extension depends on vulnerability detection engine, [recheck](https://github.com/MakeNowJust-Labo/recheck).
+
 ## Issues
 Submit the [issues](https://github.com/Ran350/redos-checker-for-vscode/issues) if you find any bug or have any suggestion.
 
@@ -24,24 +27,7 @@ Submit the [issues](https://github.com/Ran350/redos-checker-for-vscode/issues) i
 Fork the [repo](https://github.com/Ran350/redos-checker-for-vscode) and submit pull requests.
 
 ## Develop
-### Requirements
-This extension depends on vulnerability detection engine, [recheck](https://github.com/MakeNowJust-Labo/recheck).
-
-
-
-### Publish
-If vsce is not installed, run the following.
-```sh
-npm install -g vsce
-```
-
-To make packaged extension in a VSIX file format, run the following command.
-```sh
-vsce package
-```
-
-Publish from [marketplace.visualstudio.com](https://marketplace.visualstudio.com/manage/publishers/ran350).
-
+See [wiki page](https://github.com/Ran350/redos-checker-for-vscode/wiki).
 
 ## Author 
 [Ran350](https://github.com/Ran350)
