@@ -22,7 +22,7 @@ export const onActiveEvent = () => {
     const panel = vscode.window.createWebviewPanel(
       "ReDoS Checker",
       "ReDoS Checker",
-      vscode.ViewColumn.One,
+      vscode.ViewColumn.Two,
       {}
     );
     panel.webview.html = panelHtml(diagnostics);
