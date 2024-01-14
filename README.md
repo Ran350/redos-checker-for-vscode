@@ -2,8 +2,8 @@
 
 # [ReDoS Checker for VSCode](https://github.com/Ran350/redos-checker-for-vscode)
 
-[![Marketplace Version](https://vsmarketplacebadges.dev/version/ran350.redos-checker-for-vscode.svg)](https://marketplace.visualstudio.com/items?itemName=ran350.redos-checker-for-vscode)
-[![Installs](https://vsmarketplacebadges.dev/installs/ran350.redos-checker-for-vscode.svg)](https://marketplace.visualstudio.com/items?itemName=ran350.redos-checker-for-vscode)
+[![Version](https://img.shields.io/visual-studio-marketplace/v/ran350.redos-checker-for-vscode?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=ran350.redos-checker-for-vscode)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/ran350.redos-checker-for-vscode?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=ran350.redos-checker-for-vscode)
 
 </div>
 
