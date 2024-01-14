@@ -4,7 +4,7 @@
   "description": "VSCode extension to detect vulnerable regular expressions",
   "version": "0.2.0",
   "publisher": "Ran350",
-  "icon": "./image/icon.png",
+  "icon": "image/icon.png",
   "engines": {
     "vscode": "^1.85.0"
   },
